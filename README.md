@@ -35,3 +35,13 @@ Steps I followed to reproduce my scans:
 3. Installed Nikto:  
    ```bash
    sudo apt-get install nikto
+
+---
+
+## 👩‍💻 About Me
+I am Sarita Gurung, a Bachelor’s student in AI Management at Gangseo University.  
+  
+**Interests:** Web Security · Penetration Testing · Vulnerability Assessment . Red Teaming
+
+📧 Contact: princessriv66@gmail.com
+
