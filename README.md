@@ -1,4 +1,3 @@
-
 # Nikto Web Vulnerability Scanner – Study Portfolio
 
 ## 📌 Overview
@@ -11,26 +10,28 @@ Do **not** run Nikto or any other security tool against systems you do not own o
 ---
 
 ## 🗂️ Repository Contents
-- `nikto-notes.md` → My study notes while learning Nikto.  
-- `Sample-output.txt` → Sanitized example of Nikto scan results.  
-- `report-template.md` → Structured vulnerability report format.  
-- `CONTRIBUTING.md` → Contribution guidelines (for practice in open-source hygiene).  
-- `LICENSE` → MIT License.
+- [Nikto Study Notes](nikto-notes.md)  
+- [Sample Sanitized Output](Sample-output.txt)  
+- [Vulnerability Report Template](report-template.md)  
+- [Contributing Guidelines](CONTRIBUTING.md)  
+- [License](LICENSE)
 
 ---
 
-## 🔬 What I Learned
-- How to install and run **Nikto** scans.  
-- How to interpret scan results (e.g., outdated versions, missing headers, misconfigurations).  
-- The importance of **sanitizing outputs** before sharing publicly.  
-- Distinguishing between **false positives** and genuine findings.  
-- Writing professional **vulnerability reports**.
+## 🔬 What I Learned  
+- How to install and run Nikto scans in a safe test environment.  
+- The kinds of vulnerabilities Nikto can identify (e.g., outdated versions, default files, missing security headers).  
+- How to distinguish **false positives** from real findings.  
+- How to sanitize output before sharing publicly.  
+- How to structure a professional vulnerability report.
 
 ---
 
-## ⚙️ Lab Setup
-1. Create a safe test environment (VM or container).  
-2. Install a web server (e.g., Apache or Nginx).  
-3. Install Nikto:
+## ⚙️ Lab Setup   
+Steps I followed to reproduce my scans:
+
+1. Created a test environment (Ubuntu VM).  
+2. Installed Apache web server with default settings.  
+3. Installed Nikto:  
    ```bash
    sudo apt-get install nikto
